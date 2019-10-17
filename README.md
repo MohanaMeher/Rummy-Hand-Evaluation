@@ -3,4 +3,4 @@ Rummy is a group of matching-card games notable for similar gameplay based on ma
 Rummy Hand Evaluation(RHE) typically estimates number of card replacements required to win the game.
 RHE was implemented using python3-pygame.
 
-![alt text](https://raw.githubusercontent.com/MohanaMeher/Rummy-Hand-Evaluation/branch/images/s1.png)
+![alt text](https://raw.githubusercontent.com/MohanaMeher/Rummy-Hand-Evaluation/images/s1.png)
