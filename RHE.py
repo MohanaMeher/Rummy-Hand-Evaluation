@@ -1,12 +1,15 @@
 def get_cards(make_cards):
     card_number = 0
     import random
+    #Assuming 1 as 'A', 11 as 'J', 12 as 'Q', 13 as 'K'
     ranks = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
     suits = ['C', 'D', 'H', 'S']
     cards = [[rank, suit] for rank in ranks for suit in suits]
+    #Shuffling the cards
     random.shuffle(cards)
     while card_number < 13:
         make_cards.append(random.choice(cards))
+        #cards depict the deck of cards remained after distribution
         cards.remove(make_cards[card_number])
         card_number += 1
 
